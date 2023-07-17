@@ -309,7 +309,11 @@ h1 {
 .images a{
     margin: 0;
     padding: 0;
-    height: 451px;
+    height: 300px;
+}
+
+.images a img{
+    max-height: 300px;
 }
 
 .slide-wapper {
@@ -377,11 +381,11 @@ footer {
    
     .list {
         width: 90%;
-        max-width: 960px;       
+            
         flex-direction: row;
         flex-wrap: wrap;        
         margin: 0 auto;        
-        
+       
     }
     .list-item{
         flex-basis: 350px;

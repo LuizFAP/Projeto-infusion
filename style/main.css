@@ -291,9 +291,8 @@ h1 {
 }
 
 .galery-wapper img {
-    width: 100vh;
-
-
+    max-width: 100vh;
+    max-height: 300px;
 }
 
 .galery-wapper img:hover {
@@ -309,12 +308,11 @@ h1 {
 .images a{
     margin: 0;
     padding: 0;
-    height: 300px;
+    max-height: 300px;
+    
 }
 
-.images a img{
-    max-height: 300px;
-}
+
 
 .slide-wapper {
     background-color: #353535;
@@ -343,7 +341,7 @@ h1 {
 .slide-wapper a,
 .slide-wapper img {
     margin: 100px 0;
-    width: 300px;
+    width: 250px;
 }
 
 footer {
@@ -479,11 +477,12 @@ footer {
 
     .images a{
         
-        height: 310px;
+        height: 320px;
         
     }
     .images a img {
        
-        max-width: 310px;
+        width: 300px;
+        
     }
 }
